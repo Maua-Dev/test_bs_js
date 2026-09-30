@@ -15,6 +15,8 @@
 // GET / — chamado quando você cadastra a cobra no site e a cada partida.
 // Controla a aparência dela. Opções de cabeça, cauda e cor:
 // https://docs.battlesnake.com/guides/customizations
+
+// 43
 export function info() {
   if (process.env.DEBUG === "true") {
     console.log("INFO");
